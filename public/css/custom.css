@@ -1,0 +1,98 @@
+.upload-container {
+    max-width: 600px;
+    margin: 2rem auto;
+}
+
+.upload-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.upload-header {
+    background-color: #f8f9fa;
+    padding: 2rem 2.5rem;
+    /* บน-ล่าง 2rem, ซ้าย-ขวา 2.5rem */
+    border-bottom: 1px solid #dee2e6;
+    /* ขอบนุ่มกว่าเดิมเล็กน้อย */
+}
+
+.upload-body {
+    padding: 2rem 2.5rem;
+    /* ให้เท่ากับ header */
+}
+
+.file-upload {
+    border: 2px dashed #ddd;
+    border-radius: 6px;
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    transition: all 0.2s;
+}
+
+.file-upload:hover {
+    border-color: #3aafa9;
+    background-color: #f8f9fa;
+}
+
+.file-info {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.progress {
+    height: 8px;
+    margin-bottom: 1.5rem;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem;
+    text-align: center;
+    flex-direction: column;
+}
+
+.upload-container {
+    max-width: 600px;
+    width: 100%;
+}
+
+.form-select {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #dee2e6;
+    border-radius: 0;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    font-size: 1rem;
+    appearance: none;
+}
+
+#drop-area {
+    border: 2px dashed #ced4da;
+    background-color: #f8f9fa;
+    transition: all 0.3s ease;
+    min-height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#drop-area:hover {
+    border-color: #3aafa9;
+    background-color: rgba(58, 175, 169, 0.05);
+}
+
+#file-info {
+    margin-top: 1rem;
+    line-height: 1.5;
+    font-size: 0.9rem;
+}
